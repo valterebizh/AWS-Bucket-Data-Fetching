@@ -41,7 +41,7 @@ namespace FetchDataFromAWS
         {
             try
             {
-                //Log
+                //Log Change
                 SmtpClient SmtpServer = new SmtpClient();
                 MailMessage mail = new MailMessage();
                 SmtpServer.Host = Smtp;
